@@ -1,0 +1,177 @@
+*{
+  color: #000;
+}
+a{
+  text-decoration: none!important;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #2c3e50;
+}
+#nav .router-link-exact-active 
+{
+  color: #42b983;
+}
+#nav a 
+{
+  font-weight: bold;
+  color: #2c3e50;
+}
+#nav 
+{
+  padding: 30px;
+}
+.hero{
+  background: transparent url('../assets/hero-home.png') center center no-repeat;
+  background-size: cover;
+  height: 70%;
+}
+.hero p{
+    color:#fff;
+}
+h1{
+    color: #fff;
+    border-color: #000;
+}
+.v-btn{
+ background-color: #fcb900;
+ margin-top: 20px;
+}
+.spanned-text{
+  color: #fcb900;
+}
+
+.span
+{
+    background-color: #0a68e2;
+    border-radius: 100%;
+    padding: 2px 4px 2px 4px;
+    color: #fff;
+    margin-right: 6px;
+    font-size: 10px;
+  }
+  .span2
+  {
+    background-color: #9c9ea0;
+    border-radius: 100%;
+    padding: 2px 4px 2px 4px;
+    color: #fff;
+    margin-right: 6px;
+    font-size: 10px;
+  }
+  .text-sme
+  {
+    font-size: 12px;
+  }
+
+  .title-bar
+  {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .title-bar p
+  {
+    margin-right: 20px;
+  }
+  .space
+  {
+    width: 200px;
+    margin: 0 20px;
+    border-bottom: solid 1px  #000 ;
+  }
+  .section-bg
+  {
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px;
+    border-radius: 10px;
+    margin: 12vh auto;
+  }
+  .additional
+  {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px;
+    width: 100%;
+    padding: auto 0;
+    height: 60px;
+    gap: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;    
+  }
+  .info-add
+  {
+    margin-top: 30px;
+    padding-left: 14px;
+  }
+  .optional
+  {
+    margin-top: -16px;
+    padding-left: 18px;
+  }
+  .inner-contents
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+  }
+  form
+  {
+    width: 40vw;
+    padding-left: 40px;
+  }
+  form .v-btn{
+    margin-left: -30px;
+  }
+  .main-with-image-section
+  {
+    display: flex;
+    padding: 20px;
+  }
+  /* steppers section */
+  .texts
+  {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  /* tooltip */
+  .v-tooltip__content {
+  pointer-events: initial;
+  color: #fff;
+}
+.texting
+{
+  margin-top: 40px;
+}
+.rating-pages
+{
+  /* display: flex;
+  justify-content: center; */
+}
+
+.selector, .selector-active, .selector-undone
+{
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+}
+.selector
+{
+  background: rgba(25, 118, 210, 0.4);
+}
+.selector-active
+{
+  background: #1976d2;
+}
+.selector-undone{
+  background: #C4C4C4;
+}
+.buttons
+{
+  background: none !important;
+  border: none !important;
+  color: #1976d2 !important ;
+}
